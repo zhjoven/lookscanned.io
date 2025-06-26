@@ -3,7 +3,7 @@
     <template #label>
       <span>{{ t('settings.scale') }}</span>
     </template>
-    <n-slider v-model:value="scale" :max="3" :min="1" :step="0.5" :format-tooltip="formatTooltip" />
+    <n-slider v-model:value="scale" :max="5" :min="1" :step="0.5" :format-tooltip="formatTooltip" />
   </n-form-item>
 </template>
 
