@@ -15,14 +15,14 @@ export interface ScanConfig {
 }
 
 export const defaultConfig: ScanConfig = {
-  rotate: 1,
-  rotate_var: 0.5,
-  colorspace: 'gray',
-  blur: 0.3,
+  rotate: 0.5,
+  rotate_var: 0.5, // 正负0.5
+  colorspace: 'sRGB',
+  blur: 0.2,
   noise: 0.1,
   border: false,
-  scale: 2,
-  brightness: 1,
+  scale: 3,
+  brightness: 0.96,
   yellowish: 0,
   contrast: 1,
   output_format: 'image/jpeg'
